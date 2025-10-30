@@ -130,7 +130,8 @@ def count_character_types(text):
 print(count_character_types("Hello 123")) # {"letters": 5, "digits": 3, "spaces": 1}
 
 
-print(count_character_types("Test2024!")) # {"letters": 4, "digits": 4, "spaces": 0} 
+print(count_character_types("Test2024!")) # {"letters": 4, "digits": 4, "spaces": 0}  
+#jhhudidhi
 
 
 
