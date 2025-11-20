@@ -6,7 +6,7 @@ def search_user_database(query):
         return None, "No search query", False  
     if not query.isalpha(): 
         return False, "Invalid characters", False 
-    if query not in ["john", "jane", "max", "joe"]:       
+    if query.lower() not in ["john", "jane", "max", "joe"]:       
         return 0, "No users found", True
     return 3, "Found 3 users", True
     
