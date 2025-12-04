@@ -47,7 +47,7 @@ def playlist_stats(*durations):
     total_time = sum(durations) 
     song_count = len(durations) 
     average_duration = total_time / song_count 
-    return (total_time, song_count, average_duration)
+    return (total_time, song_count, average_duration) 
 
 
 # =============================================================================
